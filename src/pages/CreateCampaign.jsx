@@ -122,7 +122,7 @@ const CreateCampaign = () => {
             </div>
 
             <div className='form-group'>
-              <label className="form-label">Upload Image *</label>
+              <label className="form-label">Upload Image * (Maximum size: 50KB)</label>
               <input
                 encType="multipart/form-data"
                 type="file"
