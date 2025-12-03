@@ -1,0 +1,39 @@
+
+
+.story-title {
+    font-weight: 500;
+    margin-left: -5px;
+    font-size: 20px;
+}
+
+.story-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.story-icon {
+    margin-right: 1rem;
+}
+
+.story-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.story-author {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+
+.story-text {
+    font-size: 15px;
+    color: #555;
+}
+
+.story-time {
+    font-size: 15px;
+    color: #888;
+}

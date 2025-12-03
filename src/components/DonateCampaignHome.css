@@ -1,0 +1,112 @@
+
+.campaign-main-container {
+    padding: 5rem 1rem;
+    width: fit-content;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.campaign-main-header {
+    padding-bottom: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.donate-title {
+    font-size: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #b5b7bb;
+}
+
+.filter-section {
+    padding: 1rem 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category-buttons {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.category-button {
+    height: 40px;
+    width: auto;
+    padding: 0px 30px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    background-color: #f3f4f6;
+    transition: background-color 0.4s;
+    border-radius: 9999px;
+    border: 1px solid #2ebc62;
+    cursor: pointer;
+}
+
+.category-button.active {
+    background-color: aliceblue;
+    color: #2ebc62;
+    border: 2px solid #22c55e;
+}
+
+.category-button.active .arrow-icon {
+    transform: rotate(180deg);
+}
+
+.category-button h4{
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.category-button:hover {
+    background-color: #e5e7eb;
+}
+
+.category-button.active {
+    border: 2px solid #22c55e;
+}
+
+.reset-btn {
+    font-size: 15px;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    align-items: center;
+    background-color: #f3f4f6;
+    transition: background-color 0.4s;
+    border-radius: 9999px;
+    color: black;
+    border: 1px solid #22c55e;
+    cursor: pointer;
+}
+
+.reset-btn:hover {
+    background-color: #e5e7eb;
+}
+
+.donate-campaign-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.explore-more {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.explore-link {
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    background-color: #22c55e;
+    color: #fff;
+    border-radius: 0.75rem;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.explore-link:hover {
+    background-color: #16a34a;
+}

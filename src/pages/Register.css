@@ -1,0 +1,107 @@
+.container-3{
+    height: 270px;
+}
+
+.welcome{
+    transform: translate(55px,-600px);
+    color: #2ebc62;
+}
+
+.welcome-1{
+    transform: translate(50px,-600px);
+    color: #2ebc62;
+}
+
+.register-img{
+    width: 1520px;
+    height: 645px;
+}
+
+.Register-box{
+    transform: translate(200px,-820px);
+    width: 420px;
+    background: rgb(237, 237, 237, .1);
+    backdrop-filter: blur(10px);
+    color:#11c954;
+    border-radius: 20px;
+    padding: 30px 40px;
+    margin: 100px 565px
+}
+.Register-box h1{
+    font-size: 36px;
+    text-align: center;
+
+}
+.Register-box .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-size: 20px;
+    color: #11c954;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: black;
+}
+.input-box .icon{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    height: 25px;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+.Register-box .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+}
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 4px;
+}
+.remember-forgot a{
+    color: #2ebc62;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.Register-box button{
+    width: 100%;
+    height: 45px;
+    background: #11c954;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0,.1);
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+    font-weight: 700;
+    margin-left: 0px;
+}
+.Register-box .login-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.login-link p a{
+    color: #11c954;
+    text-decoration: none;
+    justify-content: center;
+    font-weight: 600;
+}
+.login-link p a:hover{
+    text-decoration: underline;
+}

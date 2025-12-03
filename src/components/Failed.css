@@ -1,0 +1,67 @@
+
+
+.failed-container {
+    background-color: #f9fafb;
+  }
+  
+  .failed-content {
+    padding: 0 1rem;
+  }
+  
+  .failed-message{
+    display: grid;
+    justify-content: center;
+  }
+
+  .warning-icon {
+    display: block; 
+    max-width: 100px; 
+    margin-left: 160px;
+  }
+  
+  .message-title {
+    padding: 0.5rem; 
+    margin-left: 110px;
+  }
+  
+  .message-description {
+    max-width: 500px; 
+  }
+
+
+  .button-container-failed {
+    display: flex; 
+    justify-content: center; 
+    gap: 1rem; 
+  }
+
+  .button-container-failed a{
+    text-decoration: none;
+  }
+  
+  .button-home-failed,
+  .button-explore-failed {
+    padding: 10px 20px;
+    border-radius: 0.75rem; 
+    transition: all 0.3s;
+  }
+  
+  .button-home-failed {
+    background-color: #54cb56;
+    color: white; 
+  }
+  
+  .button-home-failed:hover {
+    background-color: #30da57;
+  }
+  
+  .button-explore-failed {
+    border: 1px solid #56d963;
+    color: #27bc27; 
+  }
+  
+  .button-explore-failed:hover {
+    background-color: #24ce4c; 
+    color: white; 
+  }
+  

@@ -1,0 +1,153 @@
+
+.card-container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 300px;
+    height: 320px;
+    margin: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-container img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card-container a{
+    text-decoration: none;
+  }
+  
+  .card-header {
+    height: 160px;
+    background-color: #f7fafc;
+    position: relative;
+  }
+  
+  .relative{
+    margin-top: 15px;
+  }
+  
+  .featured-badge {
+    position: absolute;
+    bottom: 8px;
+    right: -12px;
+    display: flex;
+    align-items: center;
+    background-color: #047857;
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 0 0 8px 8px;
+    z-index: 10;
+  }
+  
+  .featured-corner {
+    position: absolute;
+    right: -8px;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #047857;
+    transform: rotate(45deg);
+    z-index: -1;
+  }
+  
+  .progress-circle {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    background-color: white;
+    color: #2ebc62;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    animation: pulse 2s infinite;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border: 1px solid #2ebc62;
+    outline: 1px solid #2ebc62;
+  }
+  
+  .progress-circle span {
+    font-size: 12px;
+    position: relative;
+    bottom: 0;
+  }
+
+.progress-circle p {
+    position: relative;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(0.95);
+        opacity: 0.4;
+    }
+}
+
+  .card-content {
+    padding: 16px;
+    display: grid;
+    gap: 8px;
+    background-color: #ffffff;
+  }
+  
+  .card-content h1 {
+    font-weight: 500;
+  }
+  
+  .card-content h1.title {
+    font-size: 20px;
+    text-decoration: none;
+    color: #4B5563;
+  }
+  
+  .card-container h1.raised_text{
+    text-decoration: none;
+    font-size: 16px;
+    color: #4B5563;
+  }
+
+  .progress-bar-container {
+    width: 100%;
+    background-color: #E5E7EB;
+    border-radius: 8px;
+    height: 6px;
+  }
+  
+  .progress-bar {
+    background-color: #047857;
+    height: 6px;
+    border-radius: 8px;
+  }
+  
+  .supporters {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    color: #6B7280;
+  }
+  
+  .supporters svg {
+    color: red;
+  }
+  
+  .supporters span {
+    padding-left: 8px;
+    font-size: 14px;
+  }
+  

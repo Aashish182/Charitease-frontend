@@ -1,0 +1,114 @@
+
+.donation-container {
+    padding: 1rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.donation-header {
+    padding: 2rem 0;
+    margin-left: 430px;
+    display: flex;
+    margin-top: 35px;
+    width: fit-content;
+}
+
+.donation-header h1 {
+    border-bottom: 2px solid #ccc;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+    color: #2d3748;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin-top: 2rem;
+}
+
+.donations-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.donations-table th, 
+.donations-table td {
+    padding: 12px;
+    font-size: 14px;
+    color: #4a5568;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.donations-table th{
+    background-color: aliceblue;
+    color: #2d3748;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.donations-table tr {
+    border-bottom: 1px solid #e2e8f0;
+    background-color: aliceblue;
+    border-right: 1px solid black;
+}
+
+.donations-table tr:last-child {
+    border-bottom: none;
+}
+
+.view-link {
+    display: flex;
+    align-items: center;
+    color: #4a5568;
+    padding: 6px 12px;
+    border-radius: 8px;
+    transition: color 0.3s ease;
+}
+
+.view-link:hover {
+    color: #1a202c;
+}
+
+.icon {
+    margin-left: 8px;
+}
+
+.no-donations {
+    padding: 1rem;
+    font-size: 20px;
+    color: #718096;
+}
+
+.payout-donation{
+    display: flex;
+    position: absolute;
+    right: 170px;
+    border-radius: 10px;
+    justify-content: right;
+    margin-top: 20px;
+    width: fit-content;
+    border: 1px solid #2ebc62;
+    color: #1a202c;
+    margin: 20px;
+    background-color: #6dfba1;
+}
+
+.payout-donation h6{
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.payout-donation :hover{
+    background-color: #2ebc62;
+    border-radius: 10px;
+    transition: all ease-in 0.3s;
+}
+
+.donation-footer{
+    margin-top: 100px;
+}

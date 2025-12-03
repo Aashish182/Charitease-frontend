@@ -1,0 +1,109 @@
+.footer {
+    border-top: 1px solid #94a3b8;
+    margin: 50px;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.contact-info {
+    font-size: 15px;
+    margin-left: 0px;
+}
+
+
+
+.contact-details {
+    padding-left: 20px;
+    padding-top: 12px;
+    display: grid;
+    gap: 0px;
+    justify-items: left;
+    font-size: 18px;
+}
+
+.text1{
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 12px;
+}
+
+.text{
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+img{
+    height: 80px;
+}
+
+.footer-links {
+    padding-left: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+    max-width: 56rem;
+    height: 30px;
+    font-size: 20px;
+    margin-right: 20px;
+
+}
+
+.footer-links a {
+    color: #64748b;
+    text-decoration: none;
+}
+
+.find{
+    display: flex;
+    margin-top: -110px;
+    margin-right: 130px;
+    justify-content: right;
+    gap: 15px;
+}
+
+.font-medium{
+    font-size: 20px;
+}
+
+.footer-bottom {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #94a3b8;
+    padding-left: 25px;
+}
+
+.footer-bottom p {
+    font-size: 15px;
+}
+
+.footer-bottom a {
+    color: #2ebc62;
+    text-decoration: none;
+}
+
+.icon{
+    display: flex;
+    gap: 10px;
+}
+
+.icon a {
+    color:  #2ebc62; /* Default icon color */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.icon a:hover {
+    color: #4A90E2; /* Generic hover color, you can customize per platform */
+}

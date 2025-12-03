@@ -1,0 +1,134 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(249, 249, 247);
+    padding: 10px 40px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin: 10px 20px;
+}
+
+.navbar ul li a,
+.navbar ul li {
+    color: #2ebc62;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li:hover {
+    color: #b06e6e;
+}
+
+.search-box {
+    margin-left: 1.5rem;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.search-box input {
+    padding: 6px;
+    font-size: 1rem;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #343131;
+    font-size: 18px;
+    max-width: 200px;
+    
+}
+
+.active{
+    background-color: #f1e8e8;
+    border-radius: 20px;
+    color: #fff;  
+} 
+
+.non{
+    background-color:  rgb(249, 249, 247);
+}
+
+.username{
+  cursor: pointer;
+}
+
+.arrow{
+  color: #2ebc62;
+  transition: all(400);
+}
+
+.arrow :hover{
+  transform: rotate(180deg);
+}
+
+  .profile{
+    position: relative;
+    justify-content: center;
+  }
+
+.profile_hover{
+  position: absolute;
+  background-color:rgb(241, 241, 235);
+  font-size: 20px;
+  color: #2ebc62;
+  height: fit-content;
+  padding: 10px;
+  margin-left: 25px;
+  margin-top: -10px;
+  box-shadow: 0 1.5px rgba(62, 74, 65, 0.2);
+  border-radius: 10%;
+  size: 50px;
+  z-index: 100;
+}
+
+.profile_link{
+  text-decoration: none;
+  color: #2ebc62;
+  white-space: nowrap;
+  padding: 5px 0px;
+  box-shadow: 0 1.5px rgba(62, 74, 65, 0.2);
+}
+
+.Logout{
+  text-decoration: none;
+  color: #2ebc62;
+  padding-top: 5px;
+}
+
+.Logout:hover{
+  color: #b06e6e;
+}
+
+.profile_link:hover {
+  color: #b06e6e;
+}

@@ -1,0 +1,45 @@
+.allusertable{
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.allusertable th{
+    border: 2px;
+    font-size: 20px;
+    text-align: center;
+    border-right: 1px solid #b5b7bb;
+}
+
+.allusertable tr{
+    border-bottom: 1px solid #b5b7bb;
+    border-right: 1px solid #b5b7bb;
+    font-size: 20px;
+}
+
+.allusertable thead{
+    border-bottom: 2px solid #b5b7bb;
+}
+
+.allusertable td{
+    border: 2px;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 40px;
+    border-right: 1px solid #b5b7bb;
+}
+
+.allusertable tbody{
+    border-bottom: 2px solid #b5b7bb;
+}
+
+.editbutton{
+    padding-left: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.editbutton:hover{
+    background-color: #87d6a4;
+}
+

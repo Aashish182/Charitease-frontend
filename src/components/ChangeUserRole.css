@@ -1,0 +1,68 @@
+.changeuserrole{
+    margin-top: -200px;
+    background: rgb(237, 237, 237, .1);
+    backdrop-filter: blur(10px);
+    width: 1150px;
+    padding: 160px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.changediv{
+    z-index: 10;
+    display: grid;
+    justify-content: left;
+    align-items: center;
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 30px;
+    width: 450px;
+    height: 300px;
+}
+
+.closeicon{
+    width: fit-content;
+    transform: translate3d(370px, 10px, 0px);
+    display: flex;
+    justify-content: right;
+}
+
+.changeroletitle{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.changerolename{
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.roleselect{
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+}
+
+.rolename{
+    font-size: 20px;
+}
+
+.changerolebutton{
+    background-color: #72d998;
+    font-size: 20px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.changerolebutton:hover{
+    background-color: #4fd07e;
+}

@@ -1,0 +1,158 @@
+
+.container{
+    font-size: 35px;
+    padding: 70px;
+    width: 100%;
+    height: 305px;
+    background: url('../asset/images/home.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.container .first{
+    padding-left: 300px;
+}
+
+.container .container-small{
+    font-size: 20px;
+    padding-left: 200px;
+}
+
+.container-button{
+    padding-left: 400px;
+    margin-top: 20px;
+    display: flex;
+    size: 20px;
+    gap: 15px;
+}
+
+.container-button button{
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.container-button button a{
+    text-decoration: none;
+}
+
+.btn-1{
+    color: #fff;
+    background-color: #2ebc62;
+}
+
+.btn-1:hover{
+    color: #fff;
+    background-color: #119140;
+}
+
+.btn-2{
+    background-color: #fff;
+    color: #2ebc62;
+}
+
+.btn-2:hover{
+    background-color: #2ebc62;
+    color: #fff;
+}
+
+.count{
+    padding: 40px 0px;
+    margin-left: -70px;
+    height: 500px;
+    width: 100%;
+    
+}
+.count img{
+    width: 1320px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+    filter: blur(2px);
+}
+.count-up{
+    position: absolute;
+    top: 645px;
+    left: 470px;
+    transform: translate(-50%, -50%);
+    color: rgb(201, 195, 195);
+    font-size: 15px;
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    display: flex;
+    flex-direction: column; 
+    gap: 1rem;
+}
+.count-0 .dot,
+.count-3 .dot-1,
+.count-6 .dot-2{
+    width: 20px; 
+    height: 20px;
+    margin-left: -30px;
+    margin-bottom: -20px;
+    border-radius: 50%;
+    background-color: rgb(243, 236, 236);
+}
+.counting,
+.counting-1,
+.counting-2{
+    margin: 0;
+    padding: 0;
+}
+.count-1,
+.count-4,
+.count-7{
+    color: #fff;
+}
+
+.container1 {
+    padding: 2rem 1rem;
+    max-width: 87rem;
+    margin: 120px -75px;
+    border: 2px solid;
+    background-color: #2ebc62;
+    text-align: center;
+    border-radius: 1rem;
+}
+    
+.header {
+    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.grid-home-container {
+    display: flex;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+.card {
+    padding: 1rem;
+    background-color: #2ebc62;
+    border: none;
+    color: #fff;
+}
+
+.image {
+    margin: 0 auto;
+    width: 5rem;
+    height: 5rem;
+}
+.card-title {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.description {
+    font-size: 0.875rem;
+}
+
+.filetag{
+    transform: translateY(850px);
+}
+

@@ -1,0 +1,58 @@
+
+.main-admin-container{
+    display: flex;
+    height: 650px;
+}
+
+.adminaside{
+    background-color:rgb(249, 249, 247);
+    width: 500px;
+    min-height: max-content;
+    padding-top: 20px;
+    box-shadow: 0 0 10px rgb(212 202 202);
+}
+
+.adminsection{
+    margin: 40px;
+}
+
+.adminsection h1{
+    display: flex;
+    justify-content: center;
+}
+
+.adminname{
+    font-size: 20px;
+    display: flex;
+}
+
+.adminactions{
+    margin: 25px;
+}
+
+.adminnav{
+    display: grid;
+    padding: 5px;
+}
+
+.adminnav a {
+    text-decoration: none;
+    color: #2ebc62;
+    font-size: 20px;
+    padding: 2px;
+}
+
+.adminnav a:hover{
+    background-color: rgb(229, 242, 254);
+}
+
+.adminmain{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.active-admin-action {
+    color: aliceblue;
+    background-color: #71cc92;
+}

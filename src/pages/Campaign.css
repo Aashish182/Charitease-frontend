@@ -1,0 +1,213 @@
+
+.campaign-container {
+    padding: 4rem 1rem;
+    width: 1360px;
+    margin: 0 80px;
+}
+
+.main_campaign_container{
+    gap: 50px;
+    display: flex;
+    width: 1400px;
+}
+
+.campaign-image {
+    width: 100%;
+    height: 400px;
+    max-height: 24rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    border: 2px solid #2ebc62;
+}
+
+.campaign-left{
+    width: 880px;
+}
+
+.campaign-title {
+    padding: 1rem 0;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.campaign-owner {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.owner-icon {
+    background-color: #f97316;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.campaign-owner-name {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.campaign-tabs {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 500;
+    height: 50px;
+}
+
+.tab-button {
+    padding: 0.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.active-tab {
+    border-bottom: 2px solid #2ebc62;
+    cursor: pointer;
+}
+
+.tab-count {
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    height: 0.875rem;
+    width: 0.875rem;
+    background-color: #dc2626;
+    color: white;
+    font-size: 0.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.tab-content {
+    padding-top: 1rem;
+    max-height: 24rem;
+    overflow-y: auto;
+    padding-left: 12px;
+}
+
+.tab-details-title {
+    font-weight: 500;
+    margin-left: -5px;
+    font-size: 20px;
+}
+
+.tab-details {
+    font-size: 1rem;
+    margin-left: -4px;
+}
+
+.campaign-right {
+    padding: 1rem;
+    background-color: #f3f4f6;
+    border-radius: 0.5rem;
+    width: 400px;
+}
+
+.raised-amount {
+    font-size: 2rem;
+    color: #2ebc62;
+}
+
+.raised-sub {
+    font-size: 0.75rem;
+}
+
+.progress-bar {
+    background-color: #e5e7eb;
+    border-radius: 0.75rem;
+    height: 0.375rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.progress-bar-fill {
+    background-color: #2ebc62;
+    height: 0.375rem;
+    border-radius: 0.75rem;
+}
+
+.campaign-stats {
+    display: grid;
+    padding-top: 15px;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.campaign-stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-value {
+    font-size: 1.125rem;
+}
+
+.stat-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+
+.login-message form{
+    display: grid;
+    gap: 1rem;
+    width: 400px;
+}
+
+.login-message form:focus{
+    height: 400px;
+}
+
+.donation-form label{
+    width: 400px;
+    display: inline-block;
+}
+
+
+.donation-input {
+    width: 375px;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid #d1d5db;
+}
+
+.donate-btn {
+    padding: 0.75rem;
+    background-color: #2ebc62;
+    color: white;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 375px;
+}
+
+.donate-btn:hover {
+    background-color: #14a549;
+}
+
+.login-message {
+    position: relative;
+    margin-top: 20px;
+    width: 375px;
+}
+
+.login-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.800);
+}
+
+.login-icon {
+    margin-bottom: 0.5rem;
+}

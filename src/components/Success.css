@@ -1,0 +1,76 @@
+
+.success-container {
+    padding: 16px 32px;
+    margin: 0 auto;
+    max-width: 1120px;
+    padding-top: 50px;
+  }
+
+  .success-content {
+    text-align: center;
+    margin-left: 240px;
+    height: 385px;
+    width: 530px;
+    border-radius: 50px;
+    border: 2px solid #2ebc62;
+  }
+
+  .success-image {
+    height: 144px;
+    max-height: 176px;
+    margin: 0 auto;
+  }
+
+  .success-title {
+    padding: 8px;
+    font-size: 1.75rem;
+    font-weight: 500;
+  }
+
+  .success-message {
+    font-size: 1rem;
+    width: 440px;
+    margin: 0 auto;
+    color: #4a4a4a;
+  }
+
+  .success-actions {
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .success-actions a{
+    text-decoration: none;
+  }
+
+  .success-btn {
+    padding: 12px 24px;
+    font-size: 0.875rem;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+
+  .success-btn-primary {
+    background-color: #2ebc62;
+    color: white;
+  }
+  
+  .success-btn-primary:hover {
+    background-color: #249a52;
+  }
+  
+
+  .success-btn-secondary {
+    border: 1px solid #2ebc62;
+    color: #2ebc62;
+  }
+  
+  .success-btn-secondary:hover {
+    background-color: #2ebc62;
+    color: white;
+  }
+  

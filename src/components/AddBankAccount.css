@@ -1,0 +1,92 @@
+.addbankaccount{
+    margin: -200px -10px;
+    background: rgb(237, 237, 237, .1);
+    backdrop-filter: blur(10px);
+    width: 1300px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-color: none;
+    transform: translateY(-325px);
+    
+}
+
+.addbankdiv{
+    z-index: 10;
+    display: grid;
+    justify-content: left;
+    background-color: white;
+    padding-left: 40px;
+    margin-top: -70px;
+    padding-right: 30px;
+    width: 500px;
+    height: 550px;
+}
+
+.bank-title{
+    display: flex;
+    justify-content: space-between;
+    width: 435px;
+    margin-top: 25px;
+    height: fit-content;
+}
+
+.bank-closeicon{
+    width: fit-content;
+    display: flex;
+    justify-content: right;
+}
+
+.bank-account-title{
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.bank-group {
+padding: 5px 0;
+}
+    
+.bank-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    font-weight: 500;
+    color: #111827;
+}
+
+.bank-input {
+    width: 100%;
+    padding: 0.625rem;
+    background-color: #f9fafb;
+    border: 1px solid #d1d5db;
+    font-size: 0.875rem;
+    color: #111827;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.bank-input:focus {
+    border-color: #2ebc62;
+    box-shadow: 0 0 0 1px #2ebc62;
+}
+
+.bank-submit-button {
+    align-items: center;
+    padding: 0.75rem 10px;
+    background-color: #39e478;
+    color: white;
+    width: 180px;
+    font-size: 16px;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 0px;
+}
+
+.bank-submit-button:hover {
+    background-color: #2ec565;
+}

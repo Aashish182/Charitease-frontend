@@ -1,0 +1,11 @@
+.admin-allcampaigns{
+        width: 100%;
+        height: 100%;
+        background-color: aliceblue;
+}
+
+.admin-campaigncard{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+}
