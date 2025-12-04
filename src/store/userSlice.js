@@ -22,7 +22,6 @@
 // export default userSlice.reducer;
 
 
-
 import { createSlice } from "@reduxjs/toolkit";
 
 const getPersistedUser = () => {

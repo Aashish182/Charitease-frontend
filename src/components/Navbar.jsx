@@ -125,7 +125,6 @@
 
 // export default Navbar;
 
-
 import React from "react";
 import "./Navbar.css";
 import { useState } from "react";
